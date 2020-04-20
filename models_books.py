@@ -5,7 +5,6 @@ from helpers.misc import get_url_friendly
 class seller(models.models):
     
   #  "Information about the seller"
-
     name_book = models.CharField(max_length=50, editable=False, null=True)
     shotr_des = models.CharField(max_length=250, blank=True)
     genre = models.CharField(max_length=50, blank=True)
